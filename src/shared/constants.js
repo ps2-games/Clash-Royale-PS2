@@ -1,18 +1,18 @@
-const PORTA_PLAYER_UM = 0;
+const PLAYER_ONE_PORT = 0;
 
-const TIPO_CARTA = {
+const CARD_TYPE = {
     FEITICO: "feitico",
     TROPA: "tropa",
     EDIFICIO: "edificio"
 };
 
-const TIPO_TORRE = {
+const TOWER_TYPE = {
     PRINCIPE: "principe",
     REI: "rei"
 };
 
 export {
-    PORTA_PLAYER_UM,
-    TIPO_CARTA,
-    TIPO_TORRE
+    PLAYER_ONE_PORT,
+    CARD_TYPE,
+    TOWER_TYPE
 }
