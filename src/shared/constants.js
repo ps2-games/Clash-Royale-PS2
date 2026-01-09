@@ -1,3 +1,5 @@
+const {width: SCREEN_WIDTH, height: SCREEN_HEIGHT} = Screen.getMode();
+
 const PLAYER_ONE_PORT = 0;
 
 const CARD_TYPE = {
@@ -14,5 +16,7 @@ const TOWER_TYPE = {
 export {
     PLAYER_ONE_PORT,
     CARD_TYPE,
-    TOWER_TYPE
+    TOWER_TYPE,
+    SCREEN_WIDTH,
+    SCREEN_HEIGHT
 }
